@@ -1,0 +1,9 @@
+# This document was initiated through the terraform module
+# https://github.com/lvmh-group-it/terraform-module-github-repository
+
+dot_immutable_to_not_modify.md @foo
+
+immutable_pull_request_configuration.md @foo
+
+# We protect the CODEOWNERS file itself
+/.github/CODEOWNERS @foo
